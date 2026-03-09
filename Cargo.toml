@@ -1,9 +1,10 @@
-[package]
-name = "learn-rust"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+members = [
+    "hello_world",
+]
+resolver = "2"
 
-[dependencies]
+[workspace.dependencies]
 metal = "0.28"
 winit = "0.30"
 glam = "0.28"

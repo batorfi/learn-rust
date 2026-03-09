@@ -4,10 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-metal = "0.28"
-winit = "0.30"
-glam = "0.28"
-cpal = "0.15"
-rustfft = "6.2"
-bytemuck = { version = "1.16", features = ["derive"] }
-image = "0.25"
+metal = { workspace = true }
+winit = { workspace = true }
+glam = { workspace = true }
+cpal = { workspace = true }
+rustfft = { workspace = true }
+bytemuck = { workspace = true }
+image = { workspace = true }
