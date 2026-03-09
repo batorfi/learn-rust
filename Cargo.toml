@@ -1,22 +1,12 @@
 [workspace]
-<<<<<<< HEAD
-members = [
-    "hello_world",
-]
 resolver = "2"
-
-[workspace.dependencies]
-metal = "0.28"
-=======
 members = ["hello_world"]
-resolver = "2"
 
 [workspace.dependencies]
 metal = "0.33.0"
->>>>>>> 6ad2f23 (Workspace initialization pt. 2)
 winit = "0.30"
 glam = "0.32.1"
-cpal = "0.17,13"
+cpal = "0.17.13"
 rustfft = "6.4"
 bytemuck = { version = "1.25.0", features = ["derive"] }
 image = "0.25"
