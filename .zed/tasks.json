@@ -1,0 +1,24 @@
+// .zed/tasks.json — demoscene project tasks
+[
+  {
+    "label": "cargo run",
+    "command": "cargo run",
+    "env": { "RUST_LOG": "debug" },
+  },
+  {
+    "label": "cargo run --release",
+    "command": "cargo run --release",
+  },
+  {
+    "label": "cargo clippy",
+    "command": "cargo clippy -- -D warnings",
+  },
+  {
+    "label": "cargo build --release (size check)",
+    "command": "cargo build --release && ls -lh target/release/",
+  },
+  {
+    "label": "open Metal GPU debugger",
+    "command": "open -a Xcode",
+  },
+]

@@ -1,0 +1,13 @@
+[package]
+name = "learn-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+metal = "0.28"
+winit = "0.30"
+glam = "0.28"
+cpal = "0.15"
+rustfft = "6.2"
+bytemuck = { version = "1.16", features = ["derive"] }
+image = "0.25"

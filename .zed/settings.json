@@ -1,0 +1,7 @@
+{
+  "file_types": { "C++": ["metal"] },
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware",
+  },
+}

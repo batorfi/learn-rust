@@ -1,0 +1,16 @@
+# Rust build artifacts
+/target/
+
+# Metal shader intermediates
+*.air
+*.metallib
+
+# macOS junk
+.DS_Store
+._*
+
+# Editor artifacts
+*.swp
+.zed/local_settings.json
+
+.claude/worktrees/
