@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(cargo check)"
+      "Bash(cargo check)",
+      "Bash(rm Cargo.lock)",
+      "Bash(cargo generate-lockfile)",
+      "Skill(keybindings-help)",
+      "Skill(keybindings-help:*)"
     ]
   }
 }
